@@ -5,9 +5,10 @@
 
 def find_anagram(word, anagram):
     # [assignment] Add your code here
-    if (sorted(word) == sorted(anagram)):                                                                                                                                                                                       :
-         return True
-    else:
-         return False
+     if (sorted(word) == sorted(anagram)): 
+          return True
+     else:
+          return False
 
-print(find_anagam("earth", "heart"))
+print(find_anagram("earth", "heart"))
+print(find_anagram("brush", "shout"))
