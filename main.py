@@ -2,15 +2,12 @@
 # Example:
 # find_anagrams("hello", "check") --> False
 # find_anagrams("below", "elbow") --> True
-from collections import Counter
 
-def find_anagram(a, b):
-    # implenting counter function
-    if sorted(word) == sorted(anagram):                                                                                                                                                                                       :
-         print("The anagram is true")
+def find_anagram(word, anagram):
+    # [assignment] Add your code here
+    if (sorted(word) == sorted(anagram)):                                                                                                                                                                                       :
+         return True
     else:
-         print("The anagram is false")
-            
-a = "earth"
-b = "heart"
-find_anagram(a, b)
+         return False
+
+print(find_anagam("earth", "heart"))
